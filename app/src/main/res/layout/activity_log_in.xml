@@ -9,37 +9,53 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bg_shape"
-        android:layout_width="335dp"
-        android:layout_height="470dp"
-        android:layout_marginBottom="64dp"
+        android:layout_width="338dp"
+        android:layout_height="520dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".LogIn">
 
         <Button
-            android:id="@+id/doc_btn"
+            android:id="@+id/btndoc"
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="36dp"
             android:background="@drawable/rectanglebutton"
             android:text="Doctor View"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintEnd_toStartOf="@+id/mother_btn"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/mother_btn"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:layout_marginBottom="136dp"
+            android:layout_marginTop="36dp"
             android:background="@drawable/rectanglebutton"
             android:text="Mother View"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btndoc"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <FrameLayout
+            android:id="@+id/flfragment"
+            android:layout_width="304dp"
+            android:layout_height="400dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/doc_btn" />
+            app:layout_constraintTop_toBottomOf="@+id/btndoc"
+            app:layout_constraintVertical_bias="0.515" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
