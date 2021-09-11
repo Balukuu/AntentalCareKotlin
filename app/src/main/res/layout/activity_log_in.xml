@@ -23,10 +23,11 @@
             android:id="@+id/btndoc"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/rectanglebutton"
             android:text="Doctor View"
+            android:textColor="#F8EBEB"
             app:layout_constraintEnd_toStartOf="@+id/mother_btn"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,9 +38,10 @@
             android:id="@+id/mother_btn"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/rectanglebutton"
             android:text="Mother View"
+            android:textColor="#F8EBEB"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/btndoc"
@@ -56,6 +58,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btndoc"
             app:layout_constraintVertical_bias="0.515" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:textColor="#38C008"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

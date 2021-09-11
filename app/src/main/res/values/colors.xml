@@ -12,4 +12,5 @@
     <color name="blue">#0000ff</color>
     <color name="darkgreen">#681B1B</color>
     <color name="white">#FFFFFF</color>
+    <color name="general">#38C008</color>
 </resources>

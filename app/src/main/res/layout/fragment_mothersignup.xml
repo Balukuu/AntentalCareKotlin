@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".docLoginFragment">
+    tools:context=".mothersignupFragment">
 
     <Button
         android:id="@+id/button"
@@ -12,7 +12,7 @@
         android:layout_height="50dp"
         android:layout_marginBottom="60dp"
         android:background="@drawable/rectanglebutton"
-        android:text="Log In"
+        android:text="Sign Up"
         android:textColor="#F8EBEB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Sign Up"
+        android:text="log In"
         android:textColor="#38c008"
         android:textSize="15sp"
         android:textStyle="bold"
