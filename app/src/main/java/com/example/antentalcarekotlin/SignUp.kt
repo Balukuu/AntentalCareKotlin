@@ -12,19 +12,19 @@ class SignUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        val docLoginFragment = docLoginFragment()
-        val motherLoginFragment = motherLoginFragment()
+        val docsignupFragment = docsignupFragment()
+        val mothersignupFragment = mothersignupFragment()
 
 
         supportFragmentManager.beginTransaction().apply {
-            replace(R.id.flfragment, docLoginFragment)
+            replace(R.id.flfragment, docsignupFragment)
             commit()
         }
 
         val btndoc = findViewById<Button>(R.id.btndoc)
         btndoc.setOnClickListener {
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.flfragment, docLoginFragment)
+                replace(R.id.flfragment, docsignupFragment)
 
                 commit()
             }
@@ -32,15 +32,11 @@ class SignUp : AppCompatActivity() {
         val  mother_btn = findViewById<Button>(R.id.mother_btn)
         mother_btn.setOnClickListener {
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.flfragment, motherLoginFragment)
+                replace(R.id.flfragment, mothersignupFragment)
                 addToBackStack(null)
                 commit()
             }
         }
-//        val btnsignup =findViewById<Button>(R.id.btnsignup)
-//        btnsignup.setOnClickListener{
-//            val intent = Intent(this, SignUp::class.java)
-//            startActivity(intent)
-//        }
+
     }
 }
