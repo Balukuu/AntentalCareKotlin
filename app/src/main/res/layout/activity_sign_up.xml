@@ -9,19 +9,18 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bg_shape"
-        android:layout_width="338dp"
-        android:layout_height="520dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="328dp"
+        android:layout_height="699dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/btndoc"
             android:layout_width="156dp"
-            android:layout_height="50dp"
+            android:layout_height="46dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/rectangle"
@@ -36,7 +35,7 @@
         <Button
             android:id="@+id/mother_btn"
             android:layout_width="154dp"
-            android:layout_height="50dp"
+            android:layout_height="46dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/rectangle"
             android:text="Pregnant Mother"
@@ -49,14 +48,14 @@
 
         <FrameLayout
             android:id="@+id/flfragment"
-            android:layout_width="304dp"
-            android:layout_height="400dp"
+            android:layout_width="309dp"
+            android:layout_height="607dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintHorizontal_bias="0.545"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btndoc"
-            app:layout_constraintVertical_bias="0.515" />
+            app:layout_constraintVertical_bias="0.714" />
 
         <TextView
             android:id="@+id/textView"
@@ -64,10 +63,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Sign Up"
-            android:textStyle="bold"
             android:textColor="#38C008"
             android:textSize="25sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
