@@ -28,7 +28,7 @@ class docsignupFragment : Fragment(R.layout.fragment_docsignup) {
         btnsignup.setOnClickListener {
 
             requireActivity().run{
-                startActivity(Intent(this, SignUp::class.java))
+                startActivity(Intent(this, LogIn::class.java))
 
 
         }}

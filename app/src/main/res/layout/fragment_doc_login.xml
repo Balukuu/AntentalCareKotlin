@@ -11,7 +11,7 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/rectanglebutton"
+        android:background="@drawable/rectangle"
         android:text="Log In"
         android:textColor="#F8EBEB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,12 +35,17 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="243dp"
+        android:layout_width="264dp"
         android:layout_height="59dp"
         android:layout_marginTop="65dp"
         android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Email or Phone"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,15 +53,34 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="261dp"
-        android:layout_height="wrap_content"
+        android:layout_width="264dp"
+        android:layout_height="59dp"
         android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="Enter your password "
+        android:background="@drawable/custom_input"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_lock"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@+id/username"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="@+id/username"
         app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Medical personnel View"
+
+        android:textColor="#38c008"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/username" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

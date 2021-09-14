@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".docLoginFragment">
+    tools:context=".LogIn">
 
     <Button
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/rectanglebutton"
+        android:background="@drawable/rectangle"
         android:text="Log In"
         android:textColor="#F8EBEB"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/btnsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -34,31 +34,53 @@
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="319dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="80dp"
+        android:id="@+id/username"
+        android:layout_width="264dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="65dp"
         android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:inputType="textPersonName"
-        android:text="Password"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:hint="Email or Phone"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_input"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.496" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="329dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="208dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="264dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter your password "
+        android:background="@drawable/custom_input"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Pregnant Mother View"
+
+        android:textColor="#38c008"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/username" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

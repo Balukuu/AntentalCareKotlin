@@ -16,17 +16,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:context=".SignUp">
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/btndoc"
-            android:layout_width="150dp"
+            android:layout_width="156dp"
             android:layout_height="50dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="40dp"
-            android:background="@drawable/rectanglebutton"
-            android:text="Doctor View"
+            android:background="@drawable/rectangle"
+            android:text="Medical Personnel"
             android:textColor="#F8EBEB"
             app:layout_constraintEnd_toStartOf="@+id/mother_btn"
             app:layout_constraintHorizontal_bias="0.5"
@@ -36,11 +35,11 @@
 
         <Button
             android:id="@+id/mother_btn"
-            android:layout_width="150dp"
+            android:layout_width="154dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
-            android:background="@drawable/rectanglebutton"
-            android:text="Mother View"
+            android:background="@drawable/rectangle"
+            android:text="Pregnant Mother"
             android:textColor="#F8EBEB"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
