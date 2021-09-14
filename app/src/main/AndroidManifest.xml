@@ -11,10 +11,12 @@
         android:theme="@style/Theme.AntentalCarekotlin">
         <activity
             android:name=".MedicalDetail"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/AppTheme"/>
         <activity
             android:name=".PregnuncyDetails"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/AppTheme"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true"

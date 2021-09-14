@@ -4,6 +4,169 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MedicalDetail">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bg_shape"
+        android:layout_width="328dp"
+        android:layout_height="699dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btndoc"
+            android:layout_width="205dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle"
+            android:text="Medical Details"
+            android:textColor="#F8EBEB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/bp"
+            android:layout_width="264dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_input"
+            android:hint="BP "
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/weight"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/weight"
+            app:layout_constraintTop_toBottomOf="@+id/weight"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/pulse"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Pulse"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/bp"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/bp"
+            app:layout_constraintTop_toBottomOf="@+id/bp" />
+
+
+        <EditText
+            android:id="@+id/ns"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Nutritional Status"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/pulse"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/pulse"
+            app:layout_constraintTop_toBottomOf="@+id/pulse" />
+
+
+        <EditText
+            android:id="@+id/blood"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Blood Type"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/ns"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/ns"
+            app:layout_constraintTop_toBottomOf="@+id/ns" />
+
+
+        <EditText
+            android:id="@+id/illness"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Serious illness from the  past "
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/blood"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/blood"
+            app:layout_constraintTop_toBottomOf="@+id/blood" />
+
+        <EditText
+            android:id="@+id/miscrouges"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Miscrouges or Abortions "
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/illness"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/illness"
+            app:layout_constraintTop_toBottomOf="@+id/illness" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="Enter Your weight"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/btndoc"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="@+id/btndoc"
+            app:layout_constraintTop_toBottomOf="@+id/btndoc" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="40dp"
+            android:text="Submit"
+            android:textColor="#F8EBEB"
+            android:background="@drawable/rectangle"
+            app:layout_constraintEnd_toEndOf="@+id/miscrouges"
+            app:layout_constraintStart_toStartOf="@+id/miscrouges"
+            app:layout_constraintTop_toBottomOf="@+id/miscrouges" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
