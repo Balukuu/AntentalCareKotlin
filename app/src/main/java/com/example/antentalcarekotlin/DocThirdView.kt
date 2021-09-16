@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class DocThirdView : Fragment() {
+class DocThirdView : Fragment(R.layout.fragment_doc_thrid_view) {
 
 
     override fun onCreateView(

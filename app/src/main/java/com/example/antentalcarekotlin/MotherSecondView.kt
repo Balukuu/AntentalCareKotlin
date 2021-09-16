@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class MotherSecondView : Fragment() {
+class MotherSecondView : Fragment(R.layout.fragment_mother_second_view) {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

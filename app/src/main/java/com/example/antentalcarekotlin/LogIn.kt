@@ -14,17 +14,6 @@ class LogIn : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_log_in)
-
-//    class MyClass: Fragment(), View.OnClickListener {
-//
-//        val btnsignup = btnsignup
-//        btnsignup.setOnClickListener(this)
-//        override fun onClick(v: View) {
-//        val intent = Intent(this, SignUp::class.java)
-//        startActivity(intent)
-//    }
-//    }
-
         val docLoginFragment = docLoginFragment()
         val motherLoginFragment = motherLoginFragment()
         val signup =SignUp()

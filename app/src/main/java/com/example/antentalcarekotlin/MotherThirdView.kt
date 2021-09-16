@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class MotherThirdView : Fragment() {
+class MotherThirdView : Fragment(R.layout.fragment_mother_third_view) {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

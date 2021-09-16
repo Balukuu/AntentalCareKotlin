@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class MotherMainView : Fragment() {
+class MotherMainView : Fragment(R.layout.fragment_mother_main_view) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

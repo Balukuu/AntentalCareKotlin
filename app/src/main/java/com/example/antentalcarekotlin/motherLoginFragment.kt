@@ -27,7 +27,7 @@ class motherLoginFragment : Fragment(R.layout.motherloginfragment) {
         btnsignup.setOnClickListener {
 
             requireActivity().run{
-                startActivity(Intent(this, SignUp::class.java))
+                startActivity(Intent(this, MotherView::class.java))
 
 
             }}
