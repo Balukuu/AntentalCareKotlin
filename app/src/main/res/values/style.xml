@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
 
@@ -10,4 +11,30 @@
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
 
     </style>
+
+    <style name="dr_richard">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+
+    <style name="kampala_hos">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+
+
 </resources>
