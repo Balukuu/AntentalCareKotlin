@@ -24,6 +24,28 @@ Biira Clare\nSecond Pregancy\n4months expecpected on 23rd july 2023
 
 Personal Details
 </string>
+    <string name="months">
+
+4 Months
+</string>
+
+    <string name="weeks">
+
+3 weeks
+</string>
+    <string name="left">
+
+Left
+</string>
+    <string name="tips">
+
+Tips
+</string>
+
+    <string name="my_visits">
+
+My Visits
+</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

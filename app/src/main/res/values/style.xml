@@ -79,6 +79,63 @@
         </item>
 
     </style>
+    <style name="months">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+
+    <style name="weeks">
+
+        <item name="android:textSize">
+            35sp
+        </item>
+
+        <item name="android:textColor">
+            #C4C4C4
+        </item>
+
+    </style>
+    <style name="left">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #C4C4C4
+        </item>
+
+    </style>
+    <style name="tips">
+
+        <item name="android:textSize">
+            50sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+    <style name="my_visits">
+
+        <item name="android:textSize">
+            50sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+
 
 
 
