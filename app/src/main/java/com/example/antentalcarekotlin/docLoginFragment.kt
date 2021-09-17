@@ -22,7 +22,7 @@ class docLoginFragment : Fragment(R.layout.fragment_doc_login) {
 
             requireActivity().run{
                 Log.d("EVEN", "onCreateView: Log checks ")
-                Toast.makeText(applicationContext, "sigin", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, DoctorView::class.java))
                 // startActivity(Intent(this, SignUp::class.java))
 
 //            val intent =  Intent (activity, SignUp::class.java)

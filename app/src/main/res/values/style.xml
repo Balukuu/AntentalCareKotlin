@@ -35,6 +35,51 @@
         </item>
 
     </style>
+    <style name="search_">
+
+        <item name="android:textSize">
+            36sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+    <style name="biira_clare">
+
+        <item name="android:textSize">
+            36sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+    <style name="last_anc_vi">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+    <style name="personal_de">
+
+        <item name="android:textSize">
+            36sp
+        </item>
+
+        <item name="android:textColor">
+            #F038C008
+        </item>
+
+    </style>
+
 
 
 </resources>

@@ -158,6 +158,7 @@
             app:layout_constraintTop_toBottomOf="@+id/btndoc" />
 
         <Button
+            android:id="@+id/submit2"
             android:layout_width="150dp"
             android:layout_height="48dp"
             android:layout_marginTop="40dp"

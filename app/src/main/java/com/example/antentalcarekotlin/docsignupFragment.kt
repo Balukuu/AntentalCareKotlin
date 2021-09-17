@@ -22,7 +22,8 @@ class docsignupFragment : Fragment(R.layout.fragment_docsignup) {
 
             requireActivity().run{
                 Log.d("EVEN", "onCreateView: Log checks ")
-                Toast.makeText(applicationContext, "sign", Toast.LENGTH_SHORT).show()
+
+                startActivity(Intent(this, LogIn::class.java))
         }}
         val btnsignup = root.findViewById<TextView>(R.id.btnsignup)
         btnsignup.setOnClickListener {

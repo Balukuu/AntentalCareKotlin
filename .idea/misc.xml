@@ -11,6 +11,7 @@
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/drawable/ic_lock.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/drawable/ic_phone.xml" value="0.18504273504273505" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/drawable/rectangle.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/drawable/searchlogo.xml" value="0.18504273504273505" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/drawable/shape.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/activity_doctor_view.xml" value="0.18" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
@@ -20,15 +21,15 @@
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_doc_login.xml" value="0.33" />
-        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_doc_main_view.xml" value="0.5" />
-        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_doc_second_view.xml" value="0.1717948717948718" />
+        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_doc_main_view.xml" value="0.25" />
+        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_doc_second_view.xml" value="0.25" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_doc_thrid_view.xml" value="0.1717948717948718" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_docsignup.xml" value="0.22" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_mother_main_view.xml" value="0.1" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_mother_second_view.xml" value="0.1717948717948718" />
         <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_mother_third_view.xml" value="0.1" />
-        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_mothersignup.xml" value="0.67" />
-        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/motherloginfragment.xml" value="0.5" />
+        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/fragment_mothersignup.xml" value="0.1" />
+        <entry key="..\:/Users/baBaluku/AntentalCarekotlin/app/src/main/res/layout/motherloginfragment.xml" value="0.25" />
       </map>
     </option>
   </component>

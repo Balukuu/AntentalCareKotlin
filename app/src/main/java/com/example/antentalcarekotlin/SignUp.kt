@@ -13,7 +13,7 @@ class SignUp : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up)
 
         val docsignupFragment = docsignupFragment()
-        val mothersignupFragment = mothersignupFragment()
+        val mothersignupFragment = MotherSignupFragment()
 
 
         supportFragmentManager.beginTransaction().apply {

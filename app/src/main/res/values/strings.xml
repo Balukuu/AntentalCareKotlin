@@ -8,5 +8,22 @@ Dr Richard
 
 Kampala Hospital
 </string>
+    <string name="search_">
+
+Search..
+    </string>
+    <string name="biira_clare">
+
+Biira Clare\nSecond Pregancy\n4months expecpected on 23rd july 2023
+</string>
+    <string name="last_anc_vi">
+
+    Last ANC Visit Information
+</string>
+    <string name="personal_de">
+
+Personal Details
+</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
