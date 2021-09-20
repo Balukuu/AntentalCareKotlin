@@ -6,18 +6,145 @@
     android:layout_height="match_parent"
     tools:context=".DocMainView">
 
-    <TextView
-        android:id="@+id/textView3"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Doctor Third View"
-
-        android:textColor="#38c008"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/circle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dr_richard"
+        android:layout_width="224dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:gravity="top"
+        android:text="Biira Claire"
+        android:textAppearance="@style/dr_richard"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.736"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kampala_hos"
+        android:layout_width="133dp"
+        android:layout_height="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-5dp"
+        android:gravity="top"
+        android:text="4MONTHS"
+        android:textAppearance="@style/kampala_hos"
+        app:layout_constraintEnd_toEndOf="@+id/dr_richard"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="@+id/dr_richard"
+        app:layout_constraintTop_toBottomOf="@+id/dr_richard" />
+
+    <EditText
+        android:id="@+id/search_"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/custom_input"
+        android:gravity="top"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Ultra Sound"
+        android:textAppearance="@style/search_"
+        android:textColor="#38c008"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kampala_hos"
+        app:layout_constraintTop_toBottomOf="@+id/kampala_hos" />
+
+    <EditText
+        android:id="@+id/ultrasound"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:gravity="top"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Ultra Sound"
+
+        android:textAppearance="@style/search_"
+        android:textColor="#38c008"
+        app:layout_constraintEnd_toEndOf="@+id/search_"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/search_"
+        app:layout_constraintTop_toBottomOf="@+id/search_" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="330dp"
+        android:layout_height="209dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/ultrasound"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="@+id/ultrasound"
+        app:layout_constraintTop_toBottomOf="@+id/ultrasound">
+
+        <TextView
+            android:id="@+id/biira_clare"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="top"
+            android:paddingStart="12dp"
+            android:text="ADD NOTES"
+            android:textAppearance="@style/biira_clare"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/nextvist"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_input"
+        android:gravity="top"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="schedue next visit"
+        android:drawableEnd="@drawable/ic_date"
+        android:textColor="#C4C4C4"
+        app:layout_constraintEnd_toEndOf="@+id/card_view"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/card_view"
+        app:layout_constraintTop_toBottomOf="@+id/card_view" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:text="SAVE"
+        android:textColor="#F8EBEB"
+        app:layout_constraintEnd_toEndOf="@+id/nextvist"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="@+id/nextvist"
+        app:layout_constraintTop_toBottomOf="@+id/nextvist" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

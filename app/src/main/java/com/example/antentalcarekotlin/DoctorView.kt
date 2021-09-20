@@ -31,7 +31,7 @@ class DoctorView : AppCompatActivity() {
         val details = findViewById<ImageView>(R.id.details)
         details.setOnClickListener {
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.fragment, DocSecondView)
+                replace(R.id.fragment, DocThirdView)
 
                 commit()
             }
