@@ -7,7 +7,7 @@
     tools:context=".SignUp">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="48dp"
         android:layout_marginBottom="40dp"
@@ -28,10 +28,10 @@
         android:textColor="#38c008"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.55"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <EditText
         android:id="@+id/username"
