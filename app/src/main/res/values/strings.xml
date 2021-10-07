@@ -48,4 +48,12 @@ My Visits
 </string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_pregnancy_details">Add Pregnancy Details</string>
+    <string name="complications_of_pregnancy">Complications of Pregnancy</string>
+    <string name="period_of_gestation">Period of Gestation</string>
+    <string name="edd">EDD</string>
+    <string name="hiv_status">HIV Status</string>
+    <string name="care_level">Care Level</string>
+    <string name="first_day_of_lnmp">First Day of LNMP</string>
+    <string name="submit">Submit</string>
 </resources>

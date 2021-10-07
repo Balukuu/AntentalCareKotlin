@@ -23,8 +23,8 @@
             android:layout_height="48dp"
             android:layout_marginTop="28dp"
             android:background="@drawable/rectangle"
-            android:text="Add Pregnancy Details"
-            android:textColor="#F8EBEB"
+            android:text="@string/add_pregnancy_details"
+            android:textColor="#4E342E"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
             android:layout_height="45dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/custom_input"
-            android:hint="EDD"
+            android:hint="@string/edd"
             android:drawableEnd="@drawable/ic_date"
             android:inputType="textPassword"
             android:minHeight="48dp"
@@ -53,10 +53,12 @@
             android:layout_width="264dp"
             android:layout_height="48dp"
             android:layout_marginTop="15dp"
+            android:autofillHints=""
             android:background="@drawable/custom_input"
             android:drawablePadding="12dp"
             android:ems="10"
-            android:hint="Period of Gestation"
+            android:hint="@string/period_of_gestation"
+            android:hintTextColor="#2E7D32"
             android:inputType="text"
             android:minHeight="48dp"
             android:paddingStart="12dp"
@@ -64,7 +66,8 @@
             app:layout_constraintEnd_toEndOf="@+id/bp"
             app:layout_constraintHorizontal_bias="0.509"
             app:layout_constraintStart_toStartOf="@+id/bp"
-            app:layout_constraintTop_toBottomOf="@+id/bp" />
+            app:layout_constraintTop_toBottomOf="@+id/bp"
+            tools:ignore="TextContrastCheck" />
 
 
         <EditText
@@ -75,7 +78,7 @@
             android:background="@drawable/custom_input"
             android:drawablePadding="12dp"
             android:ems="10"
-            android:hint="Complications of Pregnancy"
+            android:hint="@string/complications_of_pregnancy"
             android:inputType="text"
             android:minHeight="48dp"
             android:paddingStart="12dp"
@@ -83,7 +86,8 @@
             app:layout_constraintEnd_toEndOf="@+id/pulse"
             app:layout_constraintHorizontal_bias="0.509"
             app:layout_constraintStart_toStartOf="@+id/pulse"
-            app:layout_constraintTop_toBottomOf="@+id/pulse" />
+            app:layout_constraintTop_toBottomOf="@+id/pulse"
+            android:autofillHints="" />
 
 
         <EditText
@@ -94,7 +98,7 @@
             android:background="@drawable/custom_input"
             android:drawablePadding="12dp"
             android:ems="10"
-            android:hint="Care Level"
+            android:hint="@string/care_level"
             android:inputType="text"
             android:minHeight="48dp"
             android:paddingStart="12dp"
@@ -113,7 +117,7 @@
             android:background="@drawable/custom_input"
             android:drawablePadding="12dp"
             android:ems="10"
-            android:hint="HIV Status"
+            android:hint="@string/hiv_status"
             android:inputType="text"
             android:minHeight="48dp"
             android:paddingStart="12dp"
@@ -121,7 +125,8 @@
             app:layout_constraintEnd_toEndOf="@+id/blood"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/blood"
-            app:layout_constraintTop_toBottomOf="@+id/blood" />
+            app:layout_constraintTop_toBottomOf="@+id/blood"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/weight"
@@ -130,7 +135,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/custom_input"
             android:ems="10"
-            android:hint="First Day of LNMP"
+            android:hint="@string/first_day_of_lnmp"
             android:inputType="textPersonName"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
@@ -144,12 +149,13 @@
             android:layout_width="150dp"
             android:layout_height="48dp"
             android:background="@drawable/rectangle"
-            android:text="Submit"
-            android:textColor="#F8EBEB"
+            android:text="@string/submit"
+            android:textColor="#4E342E"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/illness"
             app:layout_constraintStart_toStartOf="@+id/illness"
-            app:layout_constraintTop_toBottomOf="@+id/illness" />
+            app:layout_constraintTop_toBottomOf="@+id/illness"
+            tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
