@@ -33,6 +33,7 @@
         <entry key="app/src/main/res/layout/activity_doctor_view.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/activity_pregnuncy_details.xml" value="0.13360507246376813" />
+        <entry key="app/src/main/res/layout/fragment_docsignup.xml" value="0.13134057971014493" />
       </map>
     </option>
   </component>

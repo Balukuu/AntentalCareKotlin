@@ -17,8 +17,8 @@ class docsignupFragment : Fragment(R.layout.fragment_docsignup) {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val root = inflater.inflate(R.layout.fragment_docsignup, container, false)
 
-        val button = root.findViewById<Button>(R.id.button)
-        button.setOnClickListener {
+        val button2 = root.findViewById<Button>(R.id.button2)
+        button2.setOnClickListener {
 
             requireActivity().run{
                 Log.d("EVEN", "onCreateView: Log checks ")
